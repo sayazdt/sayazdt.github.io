@@ -154,7 +154,7 @@ li {
 }
 
 #header .header-column.header-column-border-right {
-	border-right: 1px solid rgba(0, 0, 0, 0.06);
+	border-right: 0px solid rgba(0, 0, 0, 0.06);
 }
 
 #header .header-column.header-column-border-left {
