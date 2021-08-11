@@ -59,7 +59,7 @@ li {
 	-webkit-transition: min-height 0.3s ease;
 	transition: min-height 0.3s ease;
 	width: 100%;
-	border-top: 40px solid #EDEDED;
+	border-top: 3px solid #EDEDED;
 	border-bottom: 1px solid transparent;
 	z-index: 1001;
 }
