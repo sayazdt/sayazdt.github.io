@@ -3735,7 +3735,7 @@ hr.pattern.pattern-2:after, .divider.pattern.pattern-2:after {
 
 .featured-box .box-content {
 	border-radius: 8px;
-	border: 1px solid rgba(0, 0, 0, 0.06);
+	border: 1px solid rgb(255 100 0);
 	border-top-width: 4px;
 	padding: 28.8px;
 	padding: 1.8rem;
