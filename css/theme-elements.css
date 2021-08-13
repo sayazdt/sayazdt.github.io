@@ -3722,6 +3722,7 @@ hr.pattern.pattern-2:after, .divider.pattern.pattern-2:after {
 	position: relative;
 	text-align: center;
 	z-index: 1;
+	margin: 5%;
 }
 
 .featured-box h4 {
@@ -3734,7 +3735,7 @@ hr.pattern.pattern-2:after, .divider.pattern.pattern-2:after {
 
 .featured-box .box-content {
 	border-radius: 8px;
-	border-top: 1px solid rgba(0, 0, 0, 0.06);
+	border: 1px solid rgba(0, 0, 0, 0.06);
 	border-top-width: 4px;
 	padding: 28.8px;
 	padding: 1.8rem;
@@ -3743,7 +3744,7 @@ hr.pattern.pattern-2:after, .divider.pattern.pattern-2:after {
 
 .featured-box .box-content:not(.box-content-border-0) {
 	top: -1px;
-	border-top-width: 4px;
+	border-width: 4px;
 }
 
 .featured-box .box-content.box-content-border-0 {
