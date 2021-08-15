@@ -592,7 +592,7 @@ li {
 	box-shadow: 0 10px 30px 10px rgba(0, 0, 0, 0.05);
 	background: #FFF;
 	padding: 10px;
-	min-width: 300px;
+	min-width: max-content;
 	z-index: 10000;
 	right: 100%;
 	margin-right: -25px;
