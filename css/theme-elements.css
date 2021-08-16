@@ -6524,7 +6524,9 @@ i.pi.pi-close:after {
 }
 
 .img-thumbnail.img-thumbnail-no-borders {
-	border: none;
+	border: solid;
+    border-color: #f70;
+    border-radius: 20px !important;
 	padding: 0;
 }
 
