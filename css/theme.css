@@ -621,6 +621,7 @@ li {
 	opacity: 1;
 	top: auto;
 	pointer-events: all;
+	border-radius: 20px;
 }
 
 @media (min-width: 992px) {
