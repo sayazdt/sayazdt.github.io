@@ -129,7 +129,7 @@
 									<div class="header-nav-features header-nav-features-no-border header-nav-features-lg-show-border order-1 order-lg-2" style="padding: 0;">
 										<ul class="header-social-icons social-icons d-sm-block social-icons-clean">
 											<div class="header-nav-feature header-nav-features-search d-inline-flex" style="margin: -1px 0px 0 10px;">
-											<a href="#" class="header-nav-features-toggle" data-focus="headerSearch"><i class="fas fa-globe header-nav-top-icon"></i></a>
+											<a title="Search" href="#" class="header-nav-features-toggle" data-focus="headerSearch"><i class="fas fa-globe header-nav-top-icon"></i></a>
 												<div class="header-nav-features-dropdown" id="headerTopSearchDropdown">
 													<div id="google_translate_element"></div>
 												</div>
@@ -400,7 +400,45 @@
 
 			</div>
 
-			<footer id="footer">				<div class="container">					<div class="footer-ribbon">						<span>Get in Touch</span>					</div>					<div class="row py-5 my-4">						<div class="col-md-6 col-lg-4 mb-4 mb-lg-0">							<h5 class="text-3 mb-3">NEWSLETTER</h5>							<p class="pr-1">Keep up on our always evolving product features and technology. Enter your e-mail address and subscribe to our newsletter.</p>							<div class="alert alert-success d-none" id="newsletterSuccess">								<strong>Success!</strong> You've been added to our email list.							</div>							<div class="alert alert-danger d-none" id="newsletterError"></div>							<form id="newsletterForm" action="php/newsletter-subscribe.php" method="POST" class="mr-4 mb-3 mb-md-0">								<div class="input-group input-group-rounded">									<input class="form-control form-control-sm bg-light" placeholder="Email Address" name="newsletterEmail" id="newsletterEmail" type="text">									<span class="input-group-append">										<button class="btn btn-light text-color-dark" type="submit"><strong>GO!</strong></button>									</span>								</div>							</form>						</div>						<div class="col-md-6 col-lg-3 mb-4 mb-lg-0">							<h5 class="text-3 mb-3">LATEST TWEETS</h5>							<div id="tweet" class="twitter" data-plugin-tweets data-plugin-options="{'username': 'oklerthemes', 'count': 2}">								<p>Please wait...</p>							</div>						</div>						<div class="col-md-6 col-lg-3 mb-4 mb-md-0">							<div class="contact-details">								<h5 class="text-3 mb-3">CONTACT US</h5>								<ul class="list list-icons list-icons-lg">
+			<footer id="footer">
+				<div class="container">
+					<div class="footer-ribbon">
+						<span>Get in Touch</span>
+					</div>
+					<div class="row py-5 my-4">
+						<div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+							<h5 class="text-3 mb-3">Search</h5>
+							<p class="pr-1">Search a phrase in our site.</p>
+							<div class="alert alert-success d-none" id="newsletterSuccess">
+								<strong>Success!</strong>.
+							</div>
+							<div class="alert alert-danger d-none" id="newsletterError"></div>
+							<form role="search" target="_blank" action="https://www.google.com/search" method="get">
+													<div class="simple-search input-group">
+														<input type="hidden" name="sitesearch" value="https://smalekz.github.io/s">
+														<input class="form-control text-1" id="headerSearch" name="q" type="search" value="" placeholder="Search..." style="border-top-left-radius: 10px;"
+														<span class="input-group-append" style="background: white;">
+															<button class="btn btn-light text-color-dark" type="submit">
+																<i class="fa fa-search header-nav-top-icon"></i>
+															</button>
+														</span>
+													</div>
+												</form>
+						</div>
+						<div class="col-md-6 col-lg-3 mb-4 mb-md-0">
+							<div class="contact-details">
+								<h5 class="text-3 mb-3">Menu</h5>
+								<ul class="list list-icons list-icons-lg">
+									<li class="mb-1"><i class="fas fa-shopping-cart text-color-primary"></i><p class="m-0"><a target="_blank" href="Products.html">Products</a></p></li>
+									<li class="mb-1"><i class="fas fa-blog text-color-primary"></i><p class="m-0"><a target="_blank" href="Blog.html">Blog</a></p></li>
+									<li class="mb-1"><i class="fas fa-handshake text-color-primary"></i><p class="m-0"><a target="_blank" href="contact.html">Contact</a></p></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-6 col-lg-3 mb-4 mb-md-0">
+							<div class="contact-details">
+								<h5 class="text-3 mb-3">CONTACT US</h5>
+								<ul class="list list-icons list-icons-lg">
 									<li class="mb-1"><i class="far fa-dot-circle text-color-primary"></i><p class="m-0">227 Madison St New York.</p></li>
 									<li class="mb-1"><i class="fas fa-phone-volume text-color-primary"></i><p class="m-0"><a href="tel.html" target="_blank">+1 (912) 888-1020</a></p></li>
 									<li class="mb-1"><i class="far fa-envelope text-color-primary"></i><p class="m-0"><a href="mail.html" target="_blank">smalekzp @ gmail . com</a></p></li>
@@ -412,7 +450,34 @@
 							<ul class="social-icons">
 								<li class="social-icons-pinterest"><a href="insta.html" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a></li>
 								<li class="social-icons-linkedin"><a href="in.html" target="_blank" title="Linkedin"><i class="fab fa-linkedin-in"></i></a></li>
-							</ul>						</div>					</div>				</div>				<div class="footer-copyright">					<div class="container py-2">						<div class="row py-4">							<div class="col-lg-1 d-flex align-items-center justify-content-center justify-content-lg-start mb-2 mb-lg-0">								<a href="index.html" class="logo pr-0 pr-lg-3">									<img alt="Porto Website Template" src="img/logo-footer.png" class="opacity-5" height="33">								</a>							</div>							<div class="col-lg-7 d-flex align-items-center justify-content-center justify-content-lg-start mb-4 mb-lg-0">								<p>© Copyright 2019. All Rights Reserved.</p>							</div>							<div class="col-lg-4 d-flex align-items-center justify-content-center justify-content-lg-end">								<nav id="sub-menu">									<ul>										<li><i class="fas fa-angle-right"></i><a href="page-faq.html" class="ml-1 text-decoration-none"> FAQ's</a></li>										<li><i class="fas fa-angle-right"></i><a href="sitemap.html" class="ml-1 text-decoration-none"> Sitemap</a></li>										<li><i class="fas fa-angle-right"></i><a href="contact-us.html" class="ml-1 text-decoration-none"> Contact Us</a></li>									</ul>								</nav>							</div>						</div>					</div>				</div>			</footer>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="footer-copyright">
+					<div class="container py-2">
+						<div class="row py-4">
+							<div class="col-lg-1 d-flex align-items-center justify-content-center justify-content-lg-start mb-2 mb-lg-0">
+								<a href="index.html" class="logo pr-0 pr-lg-3">
+									<img alt="SAYAZ Data Technologies" src="img/logo.png" class="opacity-5" height="33">
+								</a>
+							</div>
+							<div class="col-lg-7 d-flex align-items-center justify-content-center justify-content-lg-start mb-4 mb-lg-0">
+								<p>© Copyright. All Rights Reserved.</p>
+							</div>
+							<div class="col-lg-4 d-flex align-items-center justify-content-center justify-content-lg-end">
+								<nav id="sub-menu">
+									<ul>
+										<li><i class="fas fa-angle-right"></i><a href="Products.html" target="_blank" class="ml-1 text-decoration-none"> Products</a></li>
+										<li><i class="fas fa-angle-right"></i><a href="Blog.html" target="_blank" class="ml-1 text-decoration-none"> Blog</a></li>
+										<li><i class="fas fa-angle-right"></i><a href="contact.html" target="_blank" class="ml-1 text-decoration-none"> Contact</a></li>
+									</ul>
+								</nav>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
 		</div>
 
 		<!-- Vendor -->
