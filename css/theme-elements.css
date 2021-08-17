@@ -12433,18 +12433,18 @@ html.boxed .slider-container {
 
 .thumb-info .thumb-info-title {
 	-webkit-transition: all 0.3s;
-	transition: all 0.3s;
-	background: rgba(33, 37, 41, 0.8);
-	color: #FFF;
-	font-weight: 600;
-	left: 0;
-	letter-spacing: -.05em;
-	position: absolute;
-	z-index: 2;
-	max-width: 90%;
-	font-size: 17px;
-	padding: 13px 21px 2px;
-	bottom: 13%;
+    transition: all 0.3s;
+    background: rgba(33, 37, 41, 0.8);
+    color: #FFF;
+    font-weight: 600;
+    left: 0;
+    letter-spacing: -.05em;
+    position: absolute;
+    z-index: 2;
+    max-width: 90%;
+    font-size: 17px;
+    padding: 5px 5px 5px 10px;
+    bottom: 1%;
 }
 
 .thumb-info .thumb-info-type {
@@ -12455,7 +12455,7 @@ html.boxed .slider-container {
 	font-size: 0.6em;
 	font-weight: 600;
 	letter-spacing: 0;
-	margin: 8px -2px -15px 0px;
+	/*margin: 8px -2px -15px 0px;*/
 	padding: 2px 12px;
 	text-transform: uppercase;
 	z-index: 2;
@@ -12997,7 +12997,7 @@ html.boxed .slider-container {
 /* Responsive */
 @media (max-width: 991px) {
 	.thumb-info .thumb-info-title {
-		font-size: 14px;
+		font-size: 1rem;
 	}
 
 	.thumb-info .thumb-info-more {
