@@ -13507,6 +13507,7 @@ p {
 	color: #777;
 	line-height: 26px;
 	margin: 0 0 20px;
+	text-align: justify;
 }
 
 p.featured {
