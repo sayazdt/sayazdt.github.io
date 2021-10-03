@@ -54,6 +54,16 @@
 
 		<!-- Head Libs -->
 		<script src="vendor/modernizr/modernizr.min.js"></script>
+		
+		<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+		<script>
+		  window.OneSignal = window.OneSignal || [];
+		  OneSignal.push(function() {
+			OneSignal.init({
+			  appId: "0f4f11a8-ebb6-4d74-9cb4-16db0f11d36f",
+			});
+		  });
+		</script>
 
 	</head>
 	
