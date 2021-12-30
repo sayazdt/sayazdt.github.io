@@ -1,8 +1,8 @@
 <html><head>
     <meta name="viewport" content="width=device-width">
-	<base href="https://erp.abc-telecom.az/Login" />
     <link href="/plugins/bootstrap-4.6.0-dist/css/bootstrap.css" rel="stylesheet">
     <link href="/css/login_styles.css" rel="stylesheet">
+	<base href="https://erp.abc-telecom.az/Login" />
     <title>Login</title>
 </head>
 
