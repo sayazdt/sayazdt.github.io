@@ -329,11 +329,11 @@
 							<div class="col-12 col-sm-6 col-lg-3 isotope-item data mal man">
 								<span class="thumb-info thumb-info-hide-wrapper-bg mb-4">
 									<span class="thumb-info-wrapper">
-										<a target="_blank" href="https://www.linkedin.com/in/mahsa-barghi/">
-											<img src="img/authors/mbarq.jfif" class="img-fluid" alt="">
+										<a target="_blank" href="https://www.linkedin.com/in/laya-karimi-chahrogh/">
+											<img src="img/authors/lkarim.jpg" class="img-fluid" alt="">
 											<span class="thumb-info-title">
-												<span class="thumb-info-inner">Mahsa Barghi</span>
-												<span class="thumb-info-type">Machine learning researcher</span>
+												<span class="thumb-info-inner">Laya Karimi</span>
+												<span class="thumb-info-type">Data Science researcher</span>
 											</span>
 										</a>
 									</span>
@@ -343,11 +343,11 @@
 							<div class="col-12 col-sm-6 col-lg-3 isotope-item data mal man">
 								<span class="thumb-info thumb-info-hide-wrapper-bg mb-4">
 									<span class="thumb-info-wrapper">
-										<a target="_blank" href="https://www.linkedin.com/in/laya-karimi-chahrogh/">
-											<img src="img/authors/lkarim.jpg" class="img-fluid" alt="">
+										<a target="_blank" href="https://www.linkedin.com/in/mahsa-barghi/">
+											<img src="img/authors/mbarq.jfif" class="img-fluid" alt="">
 											<span class="thumb-info-title">
-												<span class="thumb-info-inner">Laya Karimi</span>
-												<span class="thumb-info-type">Data Science researcher</span>
+												<span class="thumb-info-inner">Mahsa Barghi</span>
+												<span class="thumb-info-type">Machine learning researcher</span>
 											</span>
 										</a>
 									</span>
