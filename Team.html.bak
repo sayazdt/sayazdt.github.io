@@ -212,13 +212,11 @@
 
 								<h5 class="text-uppercase mb-3">Filter By Department:</h5>
 								<ul class="nav nav-pills sort-source sort-source-style-3 portfolio-filter-group" data-filter-group="group1">
-									<li data-option-value="" class="nav-item active"><a class="nav-link text-1 text-uppercase active" href="#">Show All</a></li>
+									<!-- <li data-option-value="" class="nav-item active"><a class="nav-link text-1 text-uppercase active" href="#">Show All</a></li> -->
 									<li class="nav-item" data-option-value=".data"><a class="nav-link text-1 text-uppercase" href="#">Data Department</a></li>
 									<li class="nav-item" data-option-value=".ana"><a class="nav-link text-1 text-uppercase" href="#">Analysis Devision</a></li>
 									<li class="nav-item" data-option-value=".mal"><a class="nav-link text-1 text-uppercase" href="#">ML Devision</a></li>
-									<li class="nav-item" data-option-value=".com"><a class="nav-link text-1 text-uppercase" href="#">Communication Department</a></li>
-									<li class="nav-item" data-option-value=".con"><a class="nav-link text-1 text-uppercase" href="#">Content Devision</a></li>
-									<li class="nav-item" data-option-value=".med"><a class="nav-link text-1 text-uppercase" href="#">Media Devision</a></li>
+									<li class="nav-item" data-option-value=".sft"><a class="nav-link text-1 text-uppercase" href="#">Software Devision</a></li>
 								</ul>
 
 							</div>
@@ -256,7 +254,7 @@
 								</span>
 							</div>
 							
-							<div class="col-12 col-sm-6 col-lg-3 isotope-item com con med dir">
+							<div class="col-12 col-sm-6 col-lg-3 isotope-item data sft cor">
 								<span class="thumb-info thumb-info-hide-wrapper-bg mb-4">
 									<span class="thumb-info-wrapper">
 										<a target="_blank" href="https://www.linkedin.com/in/sadaf-tarvirdizadeh-42781052/">
@@ -298,7 +296,7 @@
 								</span>
 							</div>
 							
-							<div class="col-12 col-sm-6 col-lg-3 isotope-item data mal man">
+							<div class="col-12 col-sm-6 col-lg-3 isotope-item data ana man">
 								<span class="thumb-info thumb-info-hide-wrapper-bg mb-4">
 									<span class="thumb-info-wrapper">
 										<a target="_blank" href="https://www.linkedin.com/in/mahdi-hokmabad/">
@@ -367,7 +365,7 @@
 									</span>
 								</span>
 							</div>
-							
+							<!--
 							<div class="col-12 col-sm-6 col-lg-3 isotope-item com cor con">
 								<span class="thumb-info thumb-info-hide-wrapper-bg mb-4">
 									<span class="thumb-info-wrapper">
@@ -381,7 +379,7 @@
 									</span>
 								</span>
 							</div>
-							
+							-->
 							<div class="col-12 col-sm-6 col-lg-3 isotope-item data mal man">
 								<span class="thumb-info thumb-info-hide-wrapper-bg mb-4">
 									<span class="thumb-info-wrapper">
@@ -437,7 +435,7 @@
 									</span>
 								</span>
 							</div>
-							
+							<!--
 							<div class="col-12 col-sm-6 col-lg-3 isotope-item com med cor">
 								<span class="thumb-info thumb-info-hide-wrapper-bg mb-4">
 									<span class="thumb-info-wrapper">
@@ -451,7 +449,7 @@
 									</span>
 								</span>
 							</div>
-							
+							-->
 							<div class="col-12 col-sm-6 col-lg-3 isotope-item data ana man">
 								<span class="thumb-info thumb-info-hide-wrapper-bg mb-4">
 									<span class="thumb-info-wrapper">
@@ -466,7 +464,7 @@
 								</span>
 							</div>
 							
-							<div class="col-12 col-sm-6 col-lg-3 isotope-item data ana man">
+							<div class="col-12 col-sm-6 col-lg-3 isotope-item data sft man">
 								<span class="thumb-info thumb-info-hide-wrapper-bg mb-4">
 									<span class="thumb-info-wrapper">
 										<a target="_blank" href="https://www.linkedin.com/in/hamid-asghari-2421551bb">
@@ -480,7 +478,7 @@
 								</span>
 							</div>
 							
-							<div class="col-12 col-sm-6 col-lg-3 isotope-item data ana man">
+							<div class="col-12 col-sm-6 col-lg-3 isotope-item data sft man">
 								<span class="thumb-info thumb-info-hide-wrapper-bg mb-4">
 									<span class="thumb-info-wrapper">
 										<a target="_blank" href="https://www.linkedin.com/in/haniya-fathi-5309511b1/">
