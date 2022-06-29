@@ -141,13 +141,13 @@
 													</li>
 												
 													<li class="dropdown dropdown-mega">
-														<a class="dropdown-item dropdown-toggle" target="_blank" href="http://sdt.totalh.net/products/">
+														<a class="dropdown-item dropdown-toggle" target="_blank" href="Products.html">
 															Products
 														<i class="fas fa-chevron-down"></i></a>
 													</li>
 													
 													<li class="dropdown dropdown-reverse">
-														<a class="dropdown-item dropdown-toggle" target="_blank" href="http://sdt.totalh.net/blog/">
+														<a class="dropdown-item dropdown-toggle" target="_blank" href="Blog.html">
 															Blog
 														<i class="fas fa-chevron-down"></i></a>
 													</li>
@@ -352,7 +352,7 @@
 							<div class="col-lg-4">
 								<div class="get-started text-left text-lg-right">
 									<a target="_blank" href="contact.html" class="btn btn-primary btn-lg text-3 font-weight-semibold px-4 py-3">Book a meeting now!</a>
-									<div class="learn-more">or <a target="_blank" href="http://sdt.totalh.net/products/">checkout out products!</a></div>
+									<div class="learn-more">or <a target="_blank" href="Products.html">checkout out products!</a></div>
 								</div>
 							</div>
 						</div>
@@ -456,7 +456,7 @@
 								<div class="card-body">
 									<h4 class="card-title mb-1 text-4 font-weight-bold">Check what we can do for you!</h4>
 									<p class="card-text" style="text-align: center;">Our products are useful for almost every business. Check them out.</p>
-									<a target="_blank" href="http://sdt.totalh.net/products/" class="btn btn-primary btn-modern">Check out</a>
+									<a target="_blank" href="Products.html" class="btn btn-primary btn-modern">Check out</a>
 								</div>
 								<div class="card-footer bg-color-grey text-1 text-uppercase">
 									Check them out!
@@ -472,7 +472,7 @@
 								<div class="card-body">
 									<h4 class="card-title mb-1 text-4 font-weight-bold">Check our last findings!</h4>
 									<p class="card-text" style="text-align: center;">Check out last findings in our Blog to know more about data science.</p>
-									<a target="_blank" href="http://sdt.totalh.net/blog/" class="btn btn-primary btn-modern">Check out</a>
+									<a target="_blank" href="Blog.html" class="btn btn-primary btn-modern">Check out</a>
 								</div>
 								<div class="card-footer bg-color-grey text-1 text-uppercase">
 									Check them out!
@@ -533,8 +533,8 @@
 							<div class="contact-details">
 								<h5 class="text-3 mb-3">Menu</h5>
 								<ul class="list list-icons list-icons-lg">
-									<li class="mb-1"><i class="fas fa-shopping-cart text-color-primary"></i><p class="m-0"><a target="_blank" href="http://sdt.totalh.net/products/">Products</a></p></li>
-									<li class="mb-1"><i class="fas fa-blog text-color-primary"></i><p class="m-0"><a target="_blank" href="http://sdt.totalh.net/blog/">Blog</a></p></li>
+									<li class="mb-1"><i class="fas fa-shopping-cart text-color-primary"></i><p class="m-0"><a target="_blank" href="Products.html">Products</a></p></li>
+									<li class="mb-1"><i class="fas fa-blog text-color-primary"></i><p class="m-0"><a target="_blank" href="Blog.html">Blog</a></p></li>
 									<li class="mb-1"><i class="fas fa-users-cog text-color-primary"></i><p class="m-0"><a target="_blank" href="Team.html">Team</a></p></li>
 								</ul>
 							</div>
@@ -572,8 +572,8 @@
 							<div class="col-lg-4 d-flex align-items-center justify-content-center justify-content-lg-end">
 								<nav id="sub-menu">
 									<ul>
-										<li><i class="fas fa-angle-right"></i><a href="http://sdt.totalh.net/products/" target="_blank" class="ml-1 text-decoration-none"> Products</a></li>
-										<li><i class="fas fa-angle-right"></i><a href="http://sdt.totalh.net/blog/" target="_blank" class="ml-1 text-decoration-none"> Blog</a></li>
+										<li><i class="fas fa-angle-right"></i><a href="Products.html" target="_blank" class="ml-1 text-decoration-none"> Products</a></li>
+										<li><i class="fas fa-angle-right"></i><a href="Blog.html" target="_blank" class="ml-1 text-decoration-none"> Blog</a></li>
 										<li><i class="fas fa-angle-right"></i><a href="contact.html" target="_blank" class="ml-1 text-decoration-none"> Contact</a></li>
 									</ul>
 								</nav>

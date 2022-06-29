@@ -379,19 +379,19 @@
 								</span>
 							</div>
 							-->
-							<div class="col-12 col-sm-6 col-lg-3 isotope-item mal man">
+							<div class="col-12 col-sm-6 col-lg-3 isotope-item ana man">
 								<span class="thumb-info thumb-info-hide-wrapper-bg mb-4">
 									<span class="thumb-info-wrapper">
-										<a target="_blank" href="https://www.linkedin.com/in/mahsa-sabzevari-95769441/">
-											<img src="img/authors/msabze.jpg" class="img-fluid" alt="">
+										<a target="_blank" href="https://github.com/ftaghiyev">
+											<img src="img/authors/ftagi.jpg" class="img-fluid" alt="">
 											<span class="thumb-info-title">
-												<span class="thumb-info-inner">Mahsa Sabzevari</span>
-												<span class="thumb-info-type">Data Analysis Specialist</span>
+												<span class="thumb-info-inner">Farid Tagiyev</span>
+												<span class="thumb-info-type">Data analysis engineer</span>
 											</span>
 										</a>
 									</span>
 								</span>
-							</div>
+							</div>							
 							
 							<div class="col-12 col-sm-6 col-lg-3 isotope-item ana man">
 								<span class="thumb-info thumb-info-hide-wrapper-bg mb-4">
@@ -421,19 +421,20 @@
 								</span>
 							</div>
 							
-							<div class="col-12 col-sm-6 col-lg-3 isotope-item ana man">
+							<div class="col-12 col-sm-6 col-lg-3 isotope-item mal man">
 								<span class="thumb-info thumb-info-hide-wrapper-bg mb-4">
 									<span class="thumb-info-wrapper">
-										<a target="_blank" href="https://github.com/ftaghiyev">
-											<img src="img/authors/ftagi.jpg" class="img-fluid" alt="">
+										<a target="_blank" href="https://www.linkedin.com/in/mahsa-sabzevari-95769441/">
+											<img src="img/authors/msabze.jpg" class="img-fluid" alt="">
 											<span class="thumb-info-title">
-												<span class="thumb-info-inner">Farid Tagiyev</span>
-												<span class="thumb-info-type">Data analysis engineer</span>
+												<span class="thumb-info-inner">Mahsa Sabzevari</span>
+												<span class="thumb-info-type">Data Analysis Specialist</span>
 											</span>
 										</a>
 									</span>
 								</span>
 							</div>
+							
 							<!--
 							<div class="col-12 col-sm-6 col-lg-3 isotope-item com med cor">
 								<span class="thumb-info thumb-info-hide-wrapper-bg mb-4">
