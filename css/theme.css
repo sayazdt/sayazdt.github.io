@@ -17,7 +17,7 @@ body {
 	background-color: #FFF;
 	color: #777;
 	font-family: 'Markazi Text', serif;
-	font-size: 14px;
+	font-size: 1rem;
 	line-height: 26px;
 	margin: 0;
 }
@@ -41,7 +41,7 @@ li {
 /* Responsive */
 @media (max-width: 575px) {
 	body {
-		font-size: 13px;
+		font-size: 1rem;
 	}
 }
 /* Header */
@@ -5181,248 +5181,248 @@ h6 .inverted {
 
 /* Font Size */
 .text-1 {
-	font-size: .8em !important;
+	font-size: .8rem !important;
 }
 
 .text-2 {
-	font-size: .9em !important;
+	font-size: .9rem !important;
 }
 
 .text-3 {
-	font-size: 1em !important;
+	font-size: 1rem !important;
 }
 
 .text-4 {
-	font-size: 1.2em !important;
+	font-size: 1.5rem !important;
 }
 
 .text-5 {
-	font-size: 1.50em !important;
+	font-size: 1.50rem !important;
 }
 
 .text-6 {
-	font-size: 1.80em !important;
+	font-size: 1.80rem !important;
 }
 
 .text-7 {
-	font-size: 2em !important;
+	font-size: 2rem !important;
 }
 
 .text-8 {
-	font-size: 2.30em !important;
+	font-size: 2.30rem !important;
 }
 
 .text-9 {
-	font-size: 2.50em !important;
+	font-size: 2.50rem !important;
 }
 
 .text-10 {
-	font-size: 2.75em !important;
+	font-size: 2.75rem !important;
 }
 
 .text-11 {
-	font-size: 3em !important;
+	font-size: 3rem !important;
 }
 
 .text-12 {
-	font-size: 3.5em !important;
+	font-size: 3.5rem !important;
 }
 
 .text-13 {
-	font-size: 4em !important;
+	font-size: 4rem !important;
 }
 
 .text-14 {
-	font-size: 4.5em !important;
+	font-size: 4.5rem !important;
 }
 
 .text-15 {
-	font-size: 5em !important;
+	font-size: 5rem !important;
 }
 
 @media (min-width: 576px) {
 	.text-sm-1 {
-		font-size: .8em !important;
+		font-size: .8rem !important;
 	}
 
 	.text-sm-2 {
-		font-size: .9em !important;
+		font-size: .9rem !important;
 	}
 
 	.text-sm-3 {
-		font-size: 1em !important;
+		font-size: 1rem !important;
 	}
 
 	.text-sm-4 {
-		font-size: 1.2em !important;
+		font-size: 1.2rem !important;
 	}
 
 	.text-sm-5 {
-		font-size: 1.50em !important;
+		font-size: 1.50rem !important;
 	}
 
 	.text-sm-6 {
-		font-size: 1.80em !important;
+		font-size: 1.80rem !important;
 	}
 
 	.text-sm-7 {
-		font-size: 2em !important;
+		font-size: 2rem !important;
 	}
 
 	.text-sm-8 {
-		font-size: 2.30em !important;
+		font-size: 2.30rem !important;
 	}
 
 	.text-sm-9 {
-		font-size: 2.50em !important;
+		font-size: 2.50rem !important;
 	}
 
 	.text-sm-10 {
-		font-size: 2.75em !important;
+		font-size: 2.75rem !important;
 	}
 
 	.text-sm-11 {
-		font-size: 3em !important;
+		font-size: 3rem !important;
 	}
 
 	.text-sm-12 {
-		font-size: 3.5em !important;
+		font-size: 3.5rem !important;
 	}
 
 	.text-sm-13 {
-		font-size: 4em !important;
+		font-size: 4rem !important;
 	}
 
 	.text-sm-14 {
-		font-size: 4.5em !important;
+		font-size: 4.5rem !important;
 	}
 
 	.text-sm-15 {
-		font-size: 5em !important;
+		font-size: 5rem !important;
 	}
 }
 
 @media (min-width: 768px) {
 	.text-md-1 {
-		font-size: .8em !important;
+		font-size: .8rem !important;
 	}
 
 	.text-md-2 {
-		font-size: .9em !important;
+		font-size: .9rem !important;
 	}
 
 	.text-md-3 {
-		font-size: 1em !important;
+		font-size: 1rem !important;
 	}
 
 	.text-md-4 {
-		font-size: 1.2em !important;
+		font-size: 1.2rem !important;
 	}
 
 	.text-md-5 {
-		font-size: 1.50em !important;
+		font-size: 1.50rem !important;
 	}
 
 	.text-md-6 {
-		font-size: 1.80em !important;
+		font-size: 1.80rem !important;
 	}
 
 	.text-md-7 {
-		font-size: 2em !important;
+		font-size: 2rem !important;
 	}
 
 	.text-md-8 {
-		font-size: 2.30em !important;
+		font-size: 2.30rem !important;
 	}
 
 	.text-md-9 {
-		font-size: 2.50em !important;
+		font-size: 2.50rem !important;
 	}
 
 	.text-md-10 {
-		font-size: 2.75em !important;
+		font-size: 2.75rem !important;
 	}
 
 	.text-md-11 {
-		font-size: 3em !important;
+		font-size: 3rem !important;
 	}
 
 	.text-md-12 {
-		font-size: 3.5em !important;
+		font-size: 3.5rem !important;
 	}
 
 	.text-md-13 {
-		font-size: 4em !important;
+		font-size: 4rem !important;
 	}
 
 	.text-md-14 {
-		font-size: 4.5em !important;
+		font-size: 4.5rem !important;
 	}
 
 	.text-md-15 {
-		font-size: 5em !important;
+		font-size: 5rm !important;
 	}
 }
 
 @media (min-width: 992px) {
 	.text-lg-1 {
-		font-size: .8em !important;
+		font-size: .8rem !important;
 	}
 
 	.text-lg-2 {
-		font-size: .9em !important;
+		font-size: .9rem !important;
 	}
 
 	.text-lg-3 {
-		font-size: 1em !important;
+		font-size: 1rem !important;
 	}
 
 	.text-lg-4 {
-		font-size: 1.2em !important;
+		font-size: 1.2rem !important;
 	}
 
 	.text-lg-5 {
-		font-size: 1.50em !important;
+		font-size: 1.50rem !important;
 	}
 
 	.text-lg-6 {
-		font-size: 1.80em !important;
+		font-size: 1.80rem !important;
 	}
 
 	.text-lg-7 {
-		font-size: 2em !important;
+		font-size: 2rem !important;
 	}
 
 	.text-lg-8 {
-		font-size: 2.30em !important;
+		font-size: 2.30rem !important;
 	}
 
 	.text-lg-9 {
-		font-size: 2.50em !important;
+		font-size: 2.50rem !important;
 	}
 
 	.text-lg-10 {
-		font-size: 2.75em !important;
+		font-size: 2.75rem !important;
 	}
 
 	.text-lg-11 {
-		font-size: 3em !important;
+		font-size: 3rem !important;
 	}
 
 	.text-lg-12 {
-		font-size: 3.5em !important;
+		font-size: 3.5rem !important;
 	}
 
 	.text-lg-13 {
-		font-size: 4em !important;
+		font-size: 4rem !important;
 	}
 
 	.text-lg-14 {
-		font-size: 4.5em !important;
+		font-size: 4.5rem !important;
 	}
 
 	.text-lg-15 {
-		font-size: 5em !important;
+		font-size: 5rem !important;
 	}
 }
 
