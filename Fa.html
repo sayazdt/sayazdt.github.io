@@ -6,31 +6,30 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">	
 
-		<title>SAYAZ Data Technologies</title>	
+		<title>فناوری های داده سایاز</title>	
 
-		<meta name="keywords" content="SAYAZ Data Technologies Technology Data Science Analytics Analysis" />
-		<meta name="description" content="SAYAZ Data Technologies - Data Science Solutions">
+		<meta name="keywords" content="فناوری های داده سایاز تحلیل و بهینه سازی کسب و کار" />
+		<meta name="description" content="فناوری های داده سایاز - تحلیل و بهینه سازی کسب و کار">
 		<meta name="author" content="SAYAZ">
 		<meta name="google-site-verification" content="5-H2fcqC2ghXUBpCliv39K88lZrjBr_2h2ohaY3PcZk" />
 		
 		<meta property="og:type" content="website">
 		<meta name="robots" content="all, index">
-		<meta property="og:description" content="SAYAZ Data Technologies - Data Science Solutions">
+		<meta property="og:description" content="فناوری های داده سایاز - تحلیل و بهینه سازی کسب و کار"">
 		<meta property="og:locale" content="az_AZ">
 		<meta property="og:locale" content="us_US">
-		<meta property="og:title" content="SAYAZ Data Technologies">
-		<meta property="og:url" content="https://sayazdt.github.io">
-		<meta property="og:site_name" content="SAYAZ Data Technologies">
+		<meta property="og:locale" content="fa_FA">
+		<meta property="og:title" content="فناوری های داده سایاز">
+		<meta property="og:url" content="https://sayazdt.github.io/Fa.html">
+		<meta property="og:site_name" content="فناوری های داده سایاز">
 		<meta property="og:image" content="https://sayazdt.github.io/img/logo.png">
 		<meta property="og:image:secure_url" content="https://sayazdt.github.io/img/logo.png">
-		<meta property="og:url" content="https://sayazdt.github.io">
-		
 		
 		<script type="application/ld+json">
 		{
 		"@context": "http://schema.org/",
 		"@type": "Automation Company",
-		"name": "SAYAZ Data Technologies",
+		"name": "فناوری های داده سایاز",
 		"url": "https://sayazdt.github.io",
 		"logo": "https://sayazdt.github.io/img/logo.png", 
 		"image": "https://sayazdt.github.io/img/logo.png",
@@ -139,16 +138,6 @@
 
 		<!-- Head Libs -->
 		<script src="vendor/modernizr/modernizr.min.js"></script>
-		
-		<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
-		<script>
-		  window.OneSignal = window.OneSignal || [];
-		  OneSignal.push(function() {
-			OneSignal.init({
-			  appId: "0f4f11a8-ebb6-4d74-9cb4-16db0f11d36f",
-			});
-		  });
-		</script>
 
 	</head>
 	
@@ -188,12 +177,17 @@
 										<nav class="header-nav-top">
 											<ul class="nav nav-pills">
 												<li class="nav-item">
+													<a target="_blank" href="igap.html"><i class="far fa-comments text-4 text-color-primary" style="top: 0;"></i>آیگپ</a>
+												</li>
+												<li class="nav-item">
+													<a target="_blank" href="tele.html"><i class="fab fa-telegram text-4 text-color-primary" style="top: 0;"></i>تلگرام</a>
+												</li>	
+												<li class="nav-item">
 													<a target="_blank" href="mail.html"><i class="far fa-envelope text-4 text-color-primary" style="top: 1px;"></i>پست الکترونیکی</a>
 												</li>
 												<li class="nav-item">
-													<a target="_blank" href="telp.html"><i class="fas fa-phone-volume text-4 text-color-primary" style="top: 0;"></i>تماس تلفنی</a>
-												</li>
-												
+													<a target="_blank" href="telpf.html"><i class="fas fa-phone-volume text-4 text-color-primary" style="top: 0;"></i>تماس تلفنی</a>
+												</li>											
 											</ul>
 										</nav>
 									</div>
@@ -253,12 +247,12 @@
 									
 									<div class="header-nav-features header-nav-features-no-border header-nav-features-lg-show-border order-1 order-lg-2" style="padding: 0;">
 										<ul class="header-social-icons social-icons d-sm-block social-icons-clean">
-											<div class="header-nav-feature header-nav-features-search d-inline-flex" style="margin: -1px 0px 0 10px;">
+											<!--<div class="header-nav-feature header-nav-features-search d-inline-flex" style="margin: -1px 0px 0 10px;">
 											<a title="Translate" href="#" class="header-nav-features-toggle" data-focus="headerSearch"><i class="fas fa-globe header-nav-top-icon"></i></a>
 												<div class="header-nav-features-dropdown" id="headerTopSearchDropdown">
 													<div id="google_translate_element"></div>
 												</div>
-											</div>
+											</div>-->
 											
 											<div class="header-nav-feature header-nav-features-search d-inline-flex" style="margin: -1px 0px 0 10px;">
 											<a title="Search" href="#" class="header-nav-features-toggle" data-focus="headerSearch"><i class="fas fa-search header-nav-top-icon"></i></a>
@@ -436,15 +430,19 @@
 
 						<div class="row align-items-center">
 							<div class="col-lg-8">
+								<script>
+									function GetClockx(){d=new Date();nhour=d.getHours();nmin =d.getMinutes();nsec =d.getSeconds();if(nhour==0){ap=' AM';nhour=12;}else if(nhour <= 11){ap =' AM';}else if(nhour==12){ap=' PM';}else if(nhour >= 13){ap=' PM';nhour -= 12;} if(nmin <= 9){nmin ='0'+nmin;} if(nsec <= 9){nsec ='0'+nsec;} document.getElementById('clockbox-blogskin').innerHTML=nhour+':'+nmin+':'+nsec+ap; setTimeout('GetClockx()', 1000);} window.onload=GetClockx;document.write("");
+								</script>
+								<span dir="ltr" id="clockbox-blogskin" class="highlighted-word text-color-primary font-weight-semibold text-5" style="font-size: 2rem important;">00:00:00 AM</span>
 								<p>
-									بهترین گزینه برای رشد روزافزون کسب و کار شما با پیشرو در<span class="highlighted-word text-color-primary font-weight-semibold text-5"> تحلیل کسب و کار</span>
-									
+									&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;زمان دارد از دست میرود، فرصت ها را از دست ندهید &nbsp; &nbsp;<span class="highlighted-word text-color-primary font-weight-semibold text-5"></span>
 								</p>
 							</div>
+							
 							<div class="col-lg-4">
 								<div class="get-started text-left text-lg-right">
 									<a target="_blank" href="contact.html" class="btn btn-primary btn-lg text-3 font-weight-semibold px-4 py-3">مشاوره رایگان !</a>
-									<div class="learn-more"> <a target="_blank" href="Products.html">جزئیات محصولات!</a></div>
+									<div class="learn-more"> <a target="_blank" href="Products.html">جزئیات محصولات</a></div>
 								</div>
 							</div>
 						</div>
@@ -461,6 +459,7 @@
 								</div>
 								<div class="plan-price">
 									<span class="price"><span class="price-unit">$</span>0</span>
+									<span class="price"><span class="price-unit">بدون هزینه</span></span>
 									<label class="price-label">ماهانه</label>
 								</div>
 								<div class="plan-features">
@@ -482,6 +481,7 @@
 								</div>
 								<div class="plan-price">
 									<span class="price"><span class="price-unit">$</span>48</span>
+									<span class="price"><span class="price-unit">2.4 میلیون تومن</span></span>
 									<label class="price-label">ماهانه</label>
 								</div>
 								<div class="plan-features">
@@ -503,11 +503,12 @@
 								</div>
 								<div class="plan-price">
 									<span class="price"><span class="price-unit">$</span>288</span>
+									<span class="price"><span class="price-unit">14.4 میلیون تومن</span></span>
 									<label class="price-label">ماهانه</label>
 								</div>
 								<div class="plan-features">
 									<ul>
-										<li>تیم هماهنگی وبسایت</li>
+										<li>تیم هماهنگی وبسایت و ربات های پشتیبانی</li>
 										<li>تحلیل بهره وری جامع</li>
 										<li>سازماندهی فروش شبکه های اجتماعی</li>
 										<li>شبکه سازی و شخصیت جامع آنلاین</li>
@@ -524,8 +525,8 @@
 				<div class="container pt-2">
 					<div class="row my-5 pb-5">
 						<div class="col-lg-6 pr-5" style="text-align: justify;">
-							<h2 class="font-weight-normal text-6 mb-2 pb-1"><strong class="font-weight-extra-bold">Who</strong> We Are</h2>
-							<p class="lead">فناوری داده سایاز مجموعه ایست غیرمتمرکز برای استفاده از تحلیل کسب و کار هوشمند و هوش مصنوعی برای بهبود بهره وری کسب و کار و کار و فروش در تمام انواع کسب و کارها برای آینده ای بهینه. سایاز رمزارز را برای پرداخت قبول میکند و از مجرب ترین متخصصان جهانی برای بهینه ترین بهره وری بهره میجوید</p>
+							<h2 class="font-weight-normal text-6 mb-2 pb-1"><strong class="font-weight-extra-bold">سایاز </strong>کیست؟</h2>
+							<p class="lead">تیم فناوری های داده سایاز مجموعه ایست غیرمتمرکز برای استفاده از تحلیل کسب و کار هوشمند و هوش مصنوعی برای بهبود بهره وری کسب و کار و کار و فروش در تمام انواع کسب و کارها برای آینده ای بهینه. سایاز رمزارز را برای پرداخت قبول میکند و از مجرب ترین متخصصان جهانی برای بهینه ترین بهره وری بهره میجوید</p>
 							<a href="Team.html" target='blank' class="font-weight-semibold text-decoration-none learn-more text-2">با تیم ما آشنا شوید<i class="fas fa-chevron-right ml-2"></i></a>
 						</div>
 						<div class="col-lg-6">
@@ -578,12 +579,12 @@
 									محصولات
 								</div>
 								<div class="card-body">
-									<h4 class="card-title mb-1 text-4 font-weight-bold">Check what we can do for you!</h4>
-									<p class="card-text" style="text-align: center;">Our products are useful for almost every business. Check them out.</p>
-									<a target="_blank" href="Products.html" class="btn btn-primary btn-modern">Check out</a>
+									<h4 class="card-title mb-1 text-4 font-weight-bold">چه کمک هایی میتوانیم بکنیم؟</h4>
+									<p class="card-text" style="text-align: center;">محصولاتمان برای تمام انواع کسب و کارها بهینه شده اند. ببینید</p>
+									<a target="_blank" href="Products.html" class="btn btn-primary btn-modern">مشاهده و بررسی</a>
 								</div>
 								<div class="card-footer bg-color-grey text-1 text-uppercase">
-									Check them out!
+									ما را مقایسه کنید
 								</div>
 							</div>
 						</div><div class="col-md-6 mb-5 mb-lg-0 appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="600" style="animation-delay: 600ms;">
@@ -594,12 +595,12 @@
 									وبلاگ
 								</div>
 								<div class="card-body">
-									<h4 class="card-title mb-1 text-4 font-weight-bold">Check our last findings!</h4>
-									<p class="card-text" style="text-align: center;">Check out last findings in our Blog to know more about data science.</p>
-									<a target="_blank" href="Blog.html" class="btn btn-primary btn-modern">Check out</a>
+									<h4 class="card-title mb-1 text-4 font-weight-bold">آخرین فناوری های ما چه هستند؟</h4>
+									<p class="card-text" style="text-align: center;">آخرین یافته های ما در زمینه بهینه سازی کسب و کار را ببینید</p>
+									<a target="_blank" href="Blog.html" class="btn btn-primary btn-modern">مشاهده و بررسی</a>
 								</div>
 								<div class="card-footer bg-color-grey text-1 text-uppercase">
-									Check them out!
+									ما را مقایسه کنید
 								</div>
 							</div>
 						</div>
@@ -613,13 +614,13 @@
 						<div class="row">
 							<div class="col-md-9 col-lg-9">
 								<div class="call-to-action-content">
-									<h2 class="font-weight-normal text-6 mb-0" style="float: left;">SAYAZ is <strong class="font-weight-extra-bold">everything</strong> you need to create an <strong class="font-weight-extra-bold">awesome</strong> business!</h2>
+									<h2 class="font-weight-normal text-6 mb-0" style="float: left;">سایاز <strong class="font-weight-extra-bold"> تمام آن چیزی است </strong>که برای ساخت یک کسب و کار<strong class="font-weight-extra-bold"> نوین </strong> بدان نیازمندید</h2>
 									<p class="mb-0" style="float: left;"> <strong class="font-weight-extra-bold"> </strong> </p>
 								</div>
 							</div>
 							<div class="col-md-3 col-lg-3">
 								<div class="call-to-action-btn">
-									<a href="contact.html" target="_blank" class="btn btn-dark btn-lg text-3 font-weight-semibold px-4 py-3">Book a meeting!</a><span class="arrow hlb d-none d-md-block" data-appear-animation="rotateInUpLeft" style="top: -40px; left: 70%;"></span>
+									<a href="contact.html" target="_blank" class="btn btn-dark btn-lg text-3 font-weight-semibold px-4 py-3">مشاوره رایگان</a><span class="arrow hlb d-none d-md-block" data-appear-animation="rotateInUpLeft" style="top: -40px; left: 70%;"></span>
 								</div>
 							</div>
 						</div>
@@ -631,14 +632,14 @@
 			<footer id="footer">
 				<div class="container">
 					<div class="footer-ribbon">
-						<span>Get in Touch</span>
+						<span>در تماس باشید</span>
 					</div>
-					<div class="row py-5 my-4">
+					<div class="row py-5 my-4" style="padding-bottom: 0!important; padding-top: 1rem!important;">
 						<div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
-							<h5 class="text-3 mb-3">Search</h5>
-							<p class="pr-1">Search a phrase in our site.</p>
+							<h5 class="text-3 mb-3">جستجو</h5>
+							<p class="pr-1">در سایتمان جستجو کنید</p>
 							<div class="alert alert-success d-none" id="newsletterSuccess">
-								<strong>Success!</strong>.
+								<strong>موفق</strong>.
 							</div>
 							<div class="alert alert-danger d-none" id="newsletterError"></div>
 							<form role="search" target="_blank" action="https://www.google.com/search" method="get">
@@ -655,26 +656,27 @@
 						</div>
 						<div class="col-md-6 col-lg-3 mb-4 mb-md-0">
 							<div class="contact-details">
-								<h5 class="text-3 mb-3">Menu</h5>
+								<h5 class="text-3 mb-3">منو</h5>
 								<ul class="list list-icons list-icons-lg">
-									<li class="mb-1"><i class="fas fa-shopping-cart text-color-primary"></i><p class="m-0"><a target="_blank" href="Products.html">Products</a></p></li>
-									<li class="mb-1"><i class="fas fa-blog text-color-primary"></i><p class="m-0"><a target="_blank" href="Blog.html">Blog</a></p></li>
-									<li class="mb-1"><i class="fas fa-users-cog text-color-primary"></i><p class="m-0"><a target="_blank" href="Team.html">Team</a></p></li>
+									<li class="mb-1"><i class="fas fa-shopping-cart text-color-primary"></i><p class="m-0"><a target="_blank" href="Products.html">محصولات</a></p></li>
+									<li class="mb-1"><i class="fas fa-blog text-color-primary"></i><p class="m-0"><a target="_blank" href="Blog.html">وبلاگ</a></p></li>
+									<li class="mb-1"><i class="fas fa-users-cog text-color-primary"></i><p class="m-0"><a target="_blank" href="Team.html">تیم</a></p></li>
 								</ul>
 							</div>
 						</div>
 						<div class="col-md-6 col-lg-3 mb-4 mb-md-0">
 							<div class="contact-details">
-								<h5 class="text-3 mb-3">CONTACT US</h5>
+								<h5 class="text-3 mb-3">ارتباط با ما</h5>
 								<ul class="list list-icons list-icons-lg">
-									<li class="mb-1"><i class="fas fa-handshake text-color-primary"></i><p class="m-0"><a target="_blank" href="contact.html">Contact</a></p></li>
-									<li class="mb-1"><i class="fas fa-phone-volume text-color-primary"></i><p class="m-0"><a href="telp.html" target="_blank">+1 (912) 888-1020</a></p></li>
-									<li class="mb-1"><i class="far fa-envelope text-color-primary"></i><p class="m-0"><a href="mail.html" target="_blank">smalekzp @ gmail . com</a></p></li>
+									<li class="mb-1"><i class="fas fa-phone-volume text-color-primary"></i><p class="m-0"><a href="telpf.html" target="_blank">تماس تلفنی</a></p></li>
+									<li class="mb-1"><i class="far fa-envelope text-color-primary"></i><p class="m-0"><a href="mail.html" target="_blank">پست الکترونیکی</a></p></li>
+									<li class="mb-1"><i class="fab fa-telegram text-color-primary"></i><p class="m-0"><a target="_blank" href="tele.html">تلگرام</a></p></li>
+									<!--<li class="mb-1"><i class="far fa-comments text-color-primary"></i><p class="m-0"><a target="_blank" href="igap.html">آیگپ</a></p></li>-->
 								</ul>
 							</div>
 						</div>
 						<div class="col-md-6 col-lg-2">
-							<h5 class="text-3 mb-3">FOLLOW US</h5>
+							<h5 class="text-3 mb-3">پیگیری کنید</h5>
 							<ul class="social-icons">
 								<!--<li class="social-icons-pinterest"><a href="insta.html" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a></li>-->
 								<li class="social-icons-linkedin"><a href="in.html" target="_blank" title="Linkedin"><i class="fab fa-linkedin-in"></i></a></li>
@@ -684,7 +686,7 @@
 				</div>
 				<div class="footer-copyright">
 					<div class="container py-2">
-						<div class="row py-4">
+						<div class="row py-4" style="padding-top: 0.5rem!important; padding-bottom: 0.5rem!important;">
 							<div class="col-lg-1 d-flex align-items-center justify-content-center justify-content-lg-start mb-2 mb-lg-0">
 								<a href="index.html" class="logo pr-0 pr-lg-3">
 									<img alt="SAYAZ Data Technologies" src="img/logo.png" class="opacity-5" height="33">
@@ -709,8 +711,14 @@
 
 		</div>
 
+		<script>
+			window.replainSettings = { id: '2c73eee1-411f-4a6e-ac20-13f9bce75a88' };
+			(function(u){var s=document.createElement('script');s.async=true;s.src=u;
+			var x=document.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);
+			})('https://widget.replain.cc/dist/client.js');
+		</script>
+		<!--
 		<style> body > .skiptranslate {display: none;}</style>
-		
 		<script type="text/javascript"> 
 			function googleTranslateElementInit() { 
 				new google.translate.TranslateElement(
@@ -721,7 +729,7 @@
 		</script>
 		
 		<script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script> 
-		
+		-->
 		<script src="vendor/jquery/jquery.min.js"></script>
 		<script src="vendor/jquery.appear/jquery.appear.min.js"></script>
 		<script src="vendor/jquery.easing/jquery.easing.min.js"></script>
