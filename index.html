@@ -288,7 +288,7 @@
 					<div id="revolutionSlider" class="slider rev_slider" data-version="5.4.8" data-plugin-revolution-slider data-plugin-options="{'delay': 9000, 'gridwidth': 1170, 'gridheight': 600, 'disableProgressBar': 'on', 'responsiveLevels': [4096,1200,992,500], 'parallax': { 'type': 'scroll', 'origo': 'enterpoint', 'speed': 1000, 'levels': [2,3,4,5,6,7,8,9,12,50], 'disable_onmobile': 'on' }, 'navigation' : {'arrows': { 'enable': false }, 'bullets': {'enable': true, 'style': 'bullets-style-1', 'h_align': 'center', 'v_align': 'bottom', 'space': 7, 'v_offset': 70, 'h_offset': 0}}}">
 						<ul>
 							<li class="slide-overlay slide-overlay-primary" data-transition="fade">
-								<img src="https://www.tech-dom.com/Files/statii/1avto_zdravni_zavedenia_pic-3.jpg"  
+								<img src="css/skins/1211967.jpg"  
 									alt=""
 									data-bgposition="center center" 
 									data-bgfit="cover" 
@@ -419,14 +419,18 @@
 
 						<div class="row align-items-center">
 							<div class="col-lg-8">
+								<script>
+									function GetClockx(){d=new Date();nhour=d.getHours();nmin =d.getMinutes();nsec =d.getSeconds();if(nhour==0){ap=' AM';nhour=12;}else if(nhour <= 11){ap =' AM';}else if(nhour==12){ap=' PM';}else if(nhour >= 13){ap=' PM';nhour -= 12;} if(nmin <= 9){nmin ='0'+nmin;} if(nsec <= 9){nsec ='0'+nsec;} document.getElementById('clockbox-blogskin').innerHTML=nhour+':'+nmin+':'+nsec+ap; setTimeout('GetClockx()', 1000);} window.onload=GetClockx;document.write("");
+								</script>
+								<span dir="ltr" id="clockbox-blogskin" class="highlighted-word text-color-primary font-weight-semibold text-5" style="font-size: 2rem important;">00:00:00 AM</span>
 								<p>
-									The fastest way to grow your business with the leader in <span class="highlighted-word text-color-primary font-weight-semibold text-5">Data Technology</span>
+									&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; The time is being wasted, Don't waste the oppertunities &nbsp; &nbsp;<span class="highlighted-word text-color-primary font-weight-semibold text-5"></span>
 								</p>
 							</div>
 							<div class="col-lg-4">
 								<div class="get-started text-left text-lg-right">
-									<a target="_blank" href="contact.html" class="btn btn-primary btn-lg text-3 font-weight-semibold px-4 py-3">Book a meeting now!</a>
-									<div class="learn-more">or <a target="_blank" href="Products.html">checkout out products!</a></div>
+									<a target="_blank" href="contact.html" class="btn btn-primary btn-lg text-3 font-weight-semibold px-4 py-3">Book a free consultation now!</a>
+									<!--<div class="learn-more">or <a target="_blank" href="Products.html">checkout out products!</a></div>-->
 								</div>
 							</div>
 						</div>
