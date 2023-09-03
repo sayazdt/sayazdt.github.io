@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Markazi+Text&display=swap');
 /*
 Name: 			theme-elements.css
 Written by: 	Okler Themes - (http://www.okler.net)
@@ -8389,7 +8390,7 @@ html[xmlns] .clearfix {
 }
 
 .highlighted-word {
-	font-family: "Shadows Into Light", cursive;
+	font-family: 'Markazi Text', serif;
 	font-weight: 500;
 }
 
