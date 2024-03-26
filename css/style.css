@@ -100,7 +100,7 @@ h6,
 
 .navbar-light .navbar-nav .nav-link {
     position: relative;
-    /* margin-right: 25px; */
+    margin-right: -50px;
     padding: 35px 0;
     font-family: 'Jost', sans-serif;
     font-size: 18px;
@@ -129,9 +129,9 @@ h6,
     transition: .5s;
 }
 
-.sticky-top.navbar-light .navbar-brand img {
+/* .sticky-top.navbar-light .navbar-brand img {
     max-height: 45px;
-}
+} */
 
 @media (max-width: 991.98px) {
     .sticky-top.navbar-light {
