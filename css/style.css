@@ -100,7 +100,7 @@ h6,
 
 .navbar-light .navbar-nav .nav-link {
     position: relative;
-    margin-right: 25px;
+    /* margin-right: 25px; */
     padding: 35px 0;
     font-family: 'Jost', sans-serif;
     font-size: 18px;
@@ -161,15 +161,15 @@ h6,
 
     .navbar-light .navbar-collapse {
         margin-top: 15px;
-        border-top: 1px solid #DDDDDD;
+        /* border-top: 1px solid #DDDDDD; */
     }
 
-    .navbar-light .navbar-nav .nav-link,
+    /* .navbar-light .navbar-nav .nav-link,
     .sticky-top.navbar-light .navbar-nav .nav-link {
         padding: 10px 0;
         margin-left: 0;
         color: var(--dark) !important;
-    }
+    } */
 
     .navbar-light .navbar-brand h1 {
         color: var(--primary);
@@ -180,20 +180,22 @@ h6,
     }
 }
 
+.sticky-top.navbar-light {
+    position: fixed;
+    background: #FFFFFF;
+}
+
+.navbar-light {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    border-bottom: 1px solid rgba(256, 256, 256, .1);
+    z-index: 999;
+}
+
 @media (min-width: 992px) {
-    .navbar-light {
-        position: absolute;
-        width: 100%;
-        top: 0;
-        left: 0;
-        border-bottom: 1px solid rgba(256, 256, 256, .1);
-        z-index: 999;
-    }
-    
-    .sticky-top.navbar-light {
-        position: fixed;
-        background: #FFFFFF;
-    }
+
 
     .sticky-top.navbar-light .navbar-brand h1 {
         color: var(--primary);
@@ -216,16 +218,22 @@ h6,
         opacity: 1;
     }
 
-    .navbar-light .btn {
-        color: var(--dark);
-        background: #FFFFFF;
-    }
-
-    .sticky-top.navbar-light .btn {
-        color: var(--dark);
-        background: var(--secondary);
-    }
+    
 }
+
+.navbar-light .btn {
+    color: var(--dark);
+    background: #FFFFFF;
+}
+
+.sticky-top.navbar-light .btn {
+    color: var(--dark);
+    background: var(--secondary);
+}
+
+.d-lg-block {
+        display: block !important;
+    }
 
 
 /*** Hero Header ***/
@@ -251,7 +259,7 @@ h6,
 
 @media (max-width: 991.98px) {
     .hero-header {
-        padding: 3rem 0 5rem 0;
+        padding: 10rem 0 5rem 0;
     }
 }
 
