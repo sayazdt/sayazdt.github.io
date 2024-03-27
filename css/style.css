@@ -139,6 +139,10 @@ h6,
         background: #FFFFFF;
     }
 
+    .m-0{
+        font-size: 1.2rem;
+    }
+
     h1, .h1 {
         font-size: calc(2rem + 2vw);
     }
@@ -539,7 +543,7 @@ h6,
 
 /*** Footer ***/
 .footer {
-    margin-top: 6rem;
+    /* margin-top: 6rem; */
     padding-top: 9rem;
     background:
         url(../img/bg-top.png),
