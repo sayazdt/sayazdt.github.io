@@ -116,6 +116,10 @@ h6,
     color: var(--dark) !important;
 }
 
+.texting{
+    text-align: justify;
+}
+
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
     color: var(--secondary) !important;
