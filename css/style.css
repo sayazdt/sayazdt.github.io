@@ -104,7 +104,7 @@ h6,
     margin-right: 2rem;
     padding: 35px 0;
     /* font-family: 'Jost', sans-serif; */
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 500;
     color: var(--light) !important;
     outline: none;
@@ -201,6 +201,7 @@ h6,
     left: 0;
     border-bottom: 1px solid rgba(256, 256, 256, .1);
     z-index: 999;
+    padding: 2rem;
 }
 
 @media (min-width: 992px) {
@@ -248,14 +249,15 @@ h6,
 /*** Hero Header ***/
 .hero-header {
     margin-bottom: 0rem;
-    padding: 7rem 0 10rem 0;
+    padding: 9rem 0 5rem 0;
     background:
-        url(../img/blob-top-left.png),
+        url(../img/map.png);
+        /* url(../img/blob-top-left.png),
         url(../img/blob-top-right.png),
         url(../img/blob-bottom-left.png),
         url(../img/blob-bottom-right.png),
         url(../img/blob-center.png),
-        url(../img/bg-bottom.png);
+        url(../img/bg-bottom.png); */
     background-position:
         left 0px top 0px,
         right 0px top 0px,
@@ -549,10 +551,11 @@ h6,
 /*** Footer ***/
 .footer {
     /* margin-top: 6rem; */
-    padding-top: 9rem;
+    padding-top: 2rem;
     background:
-        url(../img/bg-top.png),
         url(../img/map.png);
+        /* url(../img/bg-top.png),
+        url(../img/map.png); */
     background-position:
         center top,
         center center;
