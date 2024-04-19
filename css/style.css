@@ -7,7 +7,6 @@
 }
 
 
-
 /*** Spinner ***/
 #spinner {
     opacity: 0;
@@ -251,7 +250,8 @@ h6,
     margin-bottom: 0rem;
     padding: 9rem 0 5rem 0;
     background:
-        url(../img/map.png);
+        url(../img/map.png),
+        linear-gradient(to bottom, #660066 0%, #cc00cc 100%);
         /* url(../img/blob-top-left.png),
         url(../img/blob-top-right.png),
         url(../img/blob-bottom-left.png),
@@ -492,7 +492,8 @@ h6,
         url(../img/blob-top-right.png),
         url(../img/blob-bottom-left.png),
         url(../img/blob-bottom-right.png),
-        url(../img/blob-center.png);
+        url(../img/blob-center.png),
+        linear-gradient(to bottom, #660066 0%, #cc00cc 100%);
     background-position:
         left 0px top 0px,
         right 0px top 0px,
@@ -553,7 +554,8 @@ h6,
     /* margin-top: 6rem; */
     padding-top: 2rem;
     background:
-        url(../img/map.png);
+        url(../img/map.png),
+        linear-gradient(to bottom, #660066 0%, #cc00cc 100%);
         /* url(../img/bg-top.png),
         url(../img/map.png); */
     background-position:
