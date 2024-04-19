@@ -52,6 +52,8 @@
         function GetClockx(){d=new Date();nhour=d.getHours();nmin =d.getMinutes();nsec =d.getSeconds();if(nhour==0){ap=' AM';nhour=12;}else if(nhour <= 11){ap =' AM';}else if(nhour==12){ap=' PM';}else if(nhour >= 13){ap=' PM';nhour -= 12;} if(nmin <= 9){nmin ='0'+nmin;} if(nsec <= 9){nsec ='0'+nsec;} document.getElementById('clockbox-blogskin').innerHTML=nhour+':'+nmin+':'+nsec+ap; setTimeout('GetClockx()', 1000);} window.onload=GetClockx;document.write("");
     </script>
 
+    <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
+
     <style>@import url('https://fonts.googleapis.com/css2?family=Vazirmatn');</style>
     <style> .dropdown-menu{text-align: right;} .back-to-top{left:20px;} .rtling{direction: rtl;} span{margin-right: 5px !important; margin-left: 5px !important;} .me-3{margin-left: 1rem !important; margin-right: 0rem !important;} .section-title{direction: rtl;} .col-lg-6{direction: rtl;} </style>
 </head>
@@ -113,8 +115,9 @@
                             <p class="rtling text-white pb-3 animated slideInDown">ارائه دهنده بهترین خدمات هویت سازی آنلاین بهتر از رقبایتان. ساخت هویت آنلاین بر هر کسب و کاری این روزها مهم است اما با سایاز دیجیتال دیگر مشکل نیست</p>
                             <a href="offers.html" class="btn btn-light py-sm-3 px-sm-5 rounded-pill animated slideInRight">خدمات</a>
                         </div>
-                        <div class="col-lg-6 text-center text-lg-start">
-                            <img class="img-fluid animated zoomIn" src="img/heros.png" alt="">
+                        <div class="col-lg-6 text-center text-lg-start" style="margin-top: 0px;">
+                            <!-- <img class="img-fluid animated zoomIn" src="img/heros.png" alt=""> -->
+                            <dotlottie-player src="js/wsKzJD0TqQ.lottie" background="transparent" speed="1" style="width: 100%; height: 18rem;" loop autoplay></dotlottie-player>
                         </div>
                     </div>
                 </div>
@@ -284,7 +287,8 @@
                         </div> -->
                     </div>
                     <div class="col-lg-6" style="text-align: center ;display: inline-block;">
-                        <img class="img-fluid wow zoomIn" data-wow-delay="0.5s" src="img/about.png">
+                        <!-- <img class="img-fluid wow zoomIn" data-wow-delay="0.5s" src="img/about.png"> -->
+                        <dotlottie-player src="js/1bYQeYsx83.json" background="transparent" speed="1" style="width: 100%; height: 100%;" loop autoplay></dotlottie-player>
                     </div>
                 </div>
             </div>
