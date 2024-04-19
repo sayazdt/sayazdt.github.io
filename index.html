@@ -53,7 +53,7 @@
         function GetClockx(){d=new Date();nhour=d.getHours();nmin =d.getMinutes();nsec =d.getSeconds();if(nhour==0){ap=' AM';nhour=12;}else if(nhour <= 11){ap =' AM';}else if(nhour==12){ap=' PM';}else if(nhour >= 13){ap=' PM';nhour -= 12;} if(nmin <= 9){nmin ='0'+nmin;} if(nsec <= 9){nsec ='0'+nsec;} document.getElementById('clockbox-blogskin').innerHTML=nhour+':'+nmin+':'+nsec+ap; setTimeout('GetClockx()', 1000);} window.onload=GetClockx;document.write("");
     </script>
 
-    <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
+    <script src="js/dotlottie-player.mjs" type="module"></script>
 
 </head>
 
@@ -116,7 +116,7 @@
                         </div>
                         <div class="col-lg-6 text-center text-lg-start">
                             <!-- <img class="img-fluid animated zoomIn" src="img/heros.png" alt=""> -->
-                            <dotlottie-player class="img-fluid animated zoomIn" src="js/chuaODHBst.json" background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay></dotlottie-player>
+                            <dotlottie-player src="js/wsKzJD0TqQ.lottie" background="transparent" speed="1" style="width: 100%; height: 100%;" loop autoplay></dotlottie-player>
                         </div>
                     </div>
                 </div>
@@ -538,7 +538,7 @@
         </div>
         <!-- Team End -->
         
-        <!-- slider start -->
+        <!-- slider start --
         <center>
             <div class="section full-height over-hide px-4 px-sm-0">
                 <div class="container">
@@ -551,8 +551,6 @@
                                 <label for="slider-2"></label>
                                 <input class="checkbox thrd" type="radio" name="slider" id="slider-3"/>
                                 <label for="slider-3"></label>
-                                <!-- <input class="checkbox foth" type="radio" name="slider" id="slider-4"/>
-                                <label for="slider-4"></label> -->
                                 <ul class="sul">
                                     <li class="sli">
                                         <span class="sspan"></span>
@@ -563,9 +561,6 @@
                                     <li class="sli">
                                         <span class="sspan"></span>
                                     </li>
-                                    <!-- <li class="sli">
-                                        <span class="sspan">SKATEBOARD FACE</span>
-                                    </li> -->
                                 </ul>
                             </div>
                         </div>
